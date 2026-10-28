@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, MapPin, Clock } from "lucide-react";
+import { Heart, MapPin } from "lucide-react";
 import Reveal, { SectionHeading } from "../components/Reveal";
 import FairyLights from "../components/FairyLights";
 import { wedding } from "../config";
@@ -51,14 +51,10 @@ export default function Events() {
 
           <div className="hairline-blush mx-auto mt-6 w-28" />
 
-          {/* muhurat + venue — large and readable */}
+          {/* venue + note — large and readable */}
           <div className="mt-6 flex flex-col items-center gap-3">
-            <p className="flex items-center gap-2.5 font-display text-2xl text-[#f6e2ae]">
-              <Clock size={20} className="text-[#eeb2c0]" />
-              {e.time}
-            </p>
-            <p className="flex items-center gap-2 text-[14px] tracking-wide text-[#f5eee2]/80">
-              <MapPin size={15} className="text-[#eeb2c0]" />
+            <p className="flex items-center gap-2 text-base tracking-wide text-[#f6e2ae]">
+              <MapPin size={18} className="text-[#eeb2c0]" />
               {e.venue}
             </p>
             <p className="mt-1 max-w-xs font-display text-base italic leading-relaxed text-[#f5eee2]/70">

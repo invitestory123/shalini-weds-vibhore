@@ -7,8 +7,8 @@ export const wedding = {
   groom: "Vibhore",
   brideFull: "Shalini",
   groomFull: "Vibhore",
-  brideParents: "The Bride",
-  groomParents: "The Groom",
+  brideParents: "Daughter of Parents",
+  groomParents: "Son of Parents",
   hashtag: "#ShaliniWedsVibhore",
   monogram: "S · V",
 
@@ -18,9 +18,9 @@ export const wedding = {
   timeLabel: "Celebrations from 8:00 PM",
 
   venue: {
-    name: "Drive Inn 24 Hotel & Resort",
+    name: "Drive in 24 Hotel & Resort",
     address: "Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
-    mapsQuery: "Drive Inn 24 Hotel & Resort, Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
+    mapsQuery: "Drive in 24 Hotel & Resort, Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
     mapsUrl: "https://share.google/IIRGUNf3L4QUEI0ZX",
   },
 
@@ -38,8 +38,7 @@ export const wedding = {
       dayLabel: "Friday",
       dayNum: "20",
       monthLabel: "November 2026",
-      time: "Baraat at 8:00 PM",
-      venue: "Drive Inn 24 Hotel & Resort, Moradabad",
+      venue: "Drive in 24, Moradabad",
       note: "Celebrations & the sacred vows — the moment two souls become one.",
     },
   ],

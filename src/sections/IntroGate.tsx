@@ -112,8 +112,12 @@ export default function IntroGate({
           <p className="text-[11px] uppercase tracking-[0.5em] text-[#f5eee2]/70">
             You are cordially invited to
           </p>
-          <h1 className="font-script text-gold text-6xl leading-tight sm:text-7xl">
-            {wedding.bride} & {wedding.groom}
+          <h1 className="font-script text-gold flex flex-col items-center text-5xl leading-tight sm:text-6xl">
+            <span>{wedding.bride}</span>
+            <span className="flex items-center justify-center gap-2.5">
+              <span className="font-script text-3xl sm:text-4xl text-[#eeb2c0]">&</span>
+              <span>{wedding.groom}</span>
+            </span>
           </h1>
 
           <motion.button

@@ -85,14 +85,6 @@ export default function Footer() {
         >
           {copied ? "Copied ✓" : `${wedding.hashtag} · tap to copy`}
         </motion.button>
-        <a
-          href="https://www.instagram.com/invitestory.in/"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-3 text-[10px] uppercase tracking-[0.35em] text-[#e2c88f]/70 transition-colors hover:text-[#e2c88f]"
-        >
-          Follow @invitestory.in on Instagram
-        </a>
       </Reveal>
     </footer>
   );
