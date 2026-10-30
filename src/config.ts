@@ -18,9 +18,9 @@ export const wedding = {
   timeLabel: "Celebrations from 8:00 PM",
 
   venue: {
-    name: "Drive in 24 Hotel & Resort",
+    name: "Drive In 24, Grand Kesar, Moradabad",
     address: "Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
-    mapsQuery: "Drive in 24 Hotel & Resort, Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
+    mapsQuery: "Drive In 24 Hotel & Resort, Grand Kesar, Delhi Road, Opposite Circuit House, Moradabad, Uttar Pradesh",
     mapsUrl: "https://share.google/IIRGUNf3L4QUEI0ZX",
   },
 
@@ -38,7 +38,7 @@ export const wedding = {
       dayLabel: "Friday",
       dayNum: "20",
       monthLabel: "November 2026",
-      venue: "Drive in 24, Moradabad",
+      venue: "Drive In 24, Grand Kesar, Moradabad",
       note: "Celebrations & the sacred vows — the moment two souls become one.",
     },
   ],
