@@ -7,8 +7,8 @@ export const wedding = {
   groom: "Vibhore",
   brideFull: "Shalini",
   groomFull: "Vibhore",
-  brideParents: "Daughter of Parents",
-  groomParents: "Son of Parents",
+  brideParents: "Daughter of Mrs. Nirmala Prajapati & Mr. Yogendra Kumar Prajapati",
+  groomParents: "Son of Mrs. Renuka Singh & Mr. Vinay Kumar Singh",
   hashtag: "#ShaliniWedsVibhore",
   monogram: "S · V",
 

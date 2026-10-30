@@ -17,7 +17,7 @@ function ArchCard({
   return (
     <Reveal delay={delay} className="relative flex-1">
       <Tilt max={8} className="h-full">
-        <div className="relative h-full overflow-hidden rounded-t-[10rem] rounded-b-3xl border border-[#e2c88f]/35 bg-white/[0.05] px-5 pb-7 pt-12 text-center backdrop-blur-md">
+        <div className="relative h-full overflow-hidden rounded-t-[10rem] rounded-b-3xl border border-[#e2c88f]/35 bg-white/[0.05] px-3.5 pb-7 pt-12 text-center backdrop-blur-md sm:px-5">
           {/* arch inner line */}
           <div className="pointer-events-none absolute inset-2 rounded-t-[9rem] rounded-b-2xl border border-[#e2c88f]/20" />
           <motion.span
@@ -33,7 +33,7 @@ function ArchCard({
             {name}
           </h3>
           <div className="hairline-blush mx-auto mt-3 w-16" />
-          <p className="mt-3 text-[12px] leading-relaxed tracking-wide text-[#f5eee2]/70">
+          <p className="mt-3 text-[11.5px] leading-relaxed tracking-wide text-[#f5eee2]/80 sm:text-[12px]">
             {parents}
           </p>
         </div>
