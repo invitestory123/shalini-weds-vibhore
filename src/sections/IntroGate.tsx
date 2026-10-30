@@ -114,10 +114,8 @@ export default function IntroGate({
           </p>
           <h1 className="font-script text-gold flex flex-col items-center text-5xl leading-tight sm:text-6xl">
             <span className="whitespace-nowrap">{wedding.bride}</span>
-            <span className="flex flex-nowrap items-center justify-center gap-2.5 whitespace-nowrap">
-              <span className="font-script text-3xl sm:text-4xl text-[#eeb2c0]">&</span>
-              <span className="whitespace-nowrap">{wedding.groom}</span>
-            </span>
+            <span className="font-script text-3xl sm:text-4xl text-[#eeb2c0] my-1 leading-none">&</span>
+            <span className="whitespace-nowrap">{wedding.groom}</span>
           </h1>
 
           <motion.button
