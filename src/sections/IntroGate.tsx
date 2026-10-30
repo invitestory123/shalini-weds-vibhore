@@ -113,10 +113,10 @@ export default function IntroGate({
             You are cordially invited to
           </p>
           <h1 className="font-script text-gold flex flex-col items-center text-5xl leading-tight sm:text-6xl">
-            <span>{wedding.bride}</span>
-            <span className="flex items-center justify-center gap-2.5">
+            <span className="whitespace-nowrap">{wedding.bride}</span>
+            <span className="flex flex-nowrap items-center justify-center gap-2.5 whitespace-nowrap">
               <span className="font-script text-3xl sm:text-4xl text-[#eeb2c0]">&</span>
-              <span>{wedding.groom}</span>
+              <span className="whitespace-nowrap">{wedding.groom}</span>
             </span>
           </h1>
 

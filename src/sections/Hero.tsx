@@ -138,7 +138,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2, duration: 0.9 }}
-              className="mt-1 font-script text-[11vw] leading-[1.1] text-[#4a3f78] sm:text-5xl"
+              className="mt-1 font-script text-[9vw] leading-[1.1] text-[#4a3f78] sm:text-4xl whitespace-nowrap"
             >
               {wedding.bride}
             </motion.h1>
@@ -146,12 +146,12 @@ export default function Hero() {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.35, duration: 0.9 }}
-              className="flex items-center justify-center gap-2 font-script text-[11vw] leading-[1.1] text-[#4a3f78] sm:text-5xl"
+              className="flex flex-nowrap items-center justify-center gap-2 font-script text-[9vw] leading-[1.1] text-[#4a3f78] sm:text-4xl whitespace-nowrap"
             >
-              <span className="font-script text-3xl leading-none text-[#c96e8c]">
+              <span className="font-script text-2xl sm:text-3xl leading-none text-[#c96e8c]">
                 &
               </span>
-              <span>{wedding.groom}</span>
+              <span className="whitespace-nowrap">{wedding.groom}</span>
             </motion.div>
           </div>
         </motion.div>

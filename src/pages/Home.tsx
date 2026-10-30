@@ -72,10 +72,12 @@ export default function Home() {
       {/* Background BGM Audio */}
       <audio
         ref={audioRef}
-        src="./assets/bgm.mp3"
         loop
         preload="auto"
-      />
+      >
+        <source src="./assets/bgm.mp3" type="audio/mp3" />
+        <source src="/assets/bgm.mp3" type="audio/mp3" />
+      </audio>
 
       {/* Floating Audio Toggle Button */}
       {stage === "open" && (
